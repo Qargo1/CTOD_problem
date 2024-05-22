@@ -208,7 +208,7 @@ def plot_and_save_graph(deformation_data_np, force_data_np, fracture_stress, fra
     plt.axhline(y=fracture_stress, color='r', linestyle='--', label='Сила при разрушении')
 
     # Линия нуля
-    plt.axhline(y=0, color='black', linestyle='--', label='Сила при разрушении')
+    plt.axhline(y=0, color='black', linestyle='--', label='Нулевая точка силы')
 
     # Plot the extension line
     plt.plot([0, vp_deformation], [0, fracture_stress], color='g', linestyle='--', label='Упругая деформация')
